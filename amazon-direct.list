@@ -1,7 +1,36 @@
-DOMAIN-KEYWORD,chime
-DOMAIN-KEYWORD,aws.a2z.com
+# Amazon / corporate work traffic that should go DIRECT.
+# This file is consumed by OpenClash as a classical text rule-provider:
+#   RULE-SET,amazon_direct,DIRECT
+#
+# Keep authentication, WorkSpaces, Zoom, Chime, Slack, and Office traffic direct
+# to avoid high proxy latency, SSO failures, and certificate/auth refresh issues.
+
+# Amazon identity / employee auth / internal services
+DOMAIN,idp.federate.amazon.com
+DOMAIN-SUFFIX,a2z.com
+DOMAIN-SUFFIX,corp.amazon.com
+DOMAIN-SUFFIX,internal.amazon.com
+DOMAIN-SUFFIX,ant.amazon.com
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-KEYWORD,midway
+DOMAIN-KEYWORD,conduit
+DOMAIN-KEYWORD,x509oidc
+
+# AWS and Amazon WorkSpaces
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonworkspaces.com
+
+# Amazon Chime
+DOMAIN-KEYWORD,chime
+
+# Zoom meetings
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoom.com
+DOMAIN-SUFFIX,zoomgov.com
+DOMAIN-SUFFIX,zoom.com.cn
+DOMAIN-KEYWORD,zoom
+
+# Common corporate collaboration services
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,officeapps.live.com
 DOMAIN-SUFFIX,slack.com
