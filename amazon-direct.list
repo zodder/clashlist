@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,corp.amazon.com
 DOMAIN-SUFFIX,internal.amazon.com
 DOMAIN-SUFFIX,ant.amazon.com
 DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,amazon.dev
 DOMAIN-KEYWORD,midway
 DOMAIN-KEYWORD,conduit
 DOMAIN-KEYWORD,x509oidc
@@ -32,6 +33,7 @@ DOMAIN-KEYWORD,zoom
 
 # Common corporate collaboration services
 DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,officeapps.live.com
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,slack-edge.com
