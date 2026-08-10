@@ -12,7 +12,8 @@ DOMAIN-SUFFIX,corp.amazon.com
 DOMAIN-SUFFIX,internal.amazon.com
 DOMAIN-SUFFIX,ant.amazon.com
 DOMAIN-SUFFIX,aws.amazon.com
-DOMAIN-SUFFIX,amazon.dev
+# DOMAIN-SUFFIX,amazon.dev
+DOMAIN-KEYWORD,amazon.dev
 DOMAIN-KEYWORD,midway
 DOMAIN-KEYWORD,conduit
 DOMAIN-KEYWORD,x509oidc
